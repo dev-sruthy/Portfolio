@@ -1,25 +1,30 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: 'Mallanna', sans-serif;
+}
+
 @layer base {
   :root {
-    --font-primary: 'Didact Gothic', sans-serif;
+    --font-primary: 'Mallanna', sans-serif;
   }
 
   html, body {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Mallanna', sans-serif;
   }
 
   * {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Mallanna', sans-serif;
   }
 }
 
-/* Ensure all utility classes map to Didact Gothic */
+/* Ensure all utility classes map to Mallanna */
 .font-display,
 .font-body,
 .font-serif-italic,
-.font-sans-clean {
-  font-family: 'Didact Gothic', sans-serif !important;
+.font-sans-clean,
+.font-sans {
+  font-family: 'Mallanna', sans-serif !important;
 }
 
 /* Subtle sleek scrollbar */
